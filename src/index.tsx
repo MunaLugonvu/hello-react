@@ -1,7 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import Login from './Auth/Login'
+import './index.css'
 
 ReactDOM.render(
-    <h1>Hello React!</h1>,
+    <Login/>,
     document.getElementById('app-root'),
 )
